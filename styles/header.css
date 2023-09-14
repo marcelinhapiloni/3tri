@@ -1,0 +1,77 @@
+.cabecalho__menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+.cabecalho{
+    background-color:#c48fd6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo_costas{
+    width: 44px;
+    height: 44px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.container__imagem{
+    padding: 1em;
+    width: 40px;
+    height: 40px;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: var(--branco);
+    width: 60vw; ;
+}
+
+.container__botao{
+    display: none;
+}
+
+.container__botao:checked~ .lista-menu{
+    display: block;
+}
+
+.lista-menu_titulo{
+    color:var(--amarelo);
+}
+
+.lista-menu_titulo, .lista-menu_item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.titulo__cabeçalho{
+    display: none;
+}
+
+ .lista-menu_item{
+    background: var(--roxo-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:1024px){
+    .titulo__cabeçalho{
+        display: block;
+        font-size: 50px;
+        color:rgb(127, 38, 150);
+        font-family: 'Great Vibes', cursive;
+    }
+}

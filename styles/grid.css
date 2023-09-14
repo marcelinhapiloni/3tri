@@ -1,0 +1,32 @@
+.Imagem{
+    width: 80px!important;
+    height: 60px!important;
+    border-bottom:5px solid;
+    border-right:5px solid;
+    border-color:rgb(127, 38, 150);
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+}
+.titulo{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 7px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+@media screen and (min-width:1024px) {
+    .titulo{
+        font-size: 30px; 
+        text-align: center;
+        display: block;
+    }
+    .Imagem{
+        width: 180px!important;
+        height: 120px!important;
+    }
+}
