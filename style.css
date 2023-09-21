@@ -6,10 +6,11 @@
     --cor-de-fundo: #e5e5e5;
     --branco: #FFFFFF;
     --amarelo:#FECD2F;
+    --preto:#000000;
     --roxo-degrade: 
     linear-gradient(94.49deg,  #733887 35.48%,  #C75EEB 143.32%);
 
 }
 body{
-    background-color:#d1a9df;
+    background-color:#c8aad3ee;
 }
